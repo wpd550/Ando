@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55585552614C59700B08105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F55585542614C59700B08105 /* AppDelegate.m */; };
+		F55585572614C59900B08105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55585562614C59900B08105 /* Assets.xcassets */; };
+		F555855A2614C59900B08105 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55585582614C59900B08105 /* MainMenu.xib */; };
+		F555855D2614C59900B08105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F555855C2614C59900B08105 /* main.m */; };
+		F59A78C72622163800E1BE10 /* IKCheckBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78C32622163800E1BE10 /* IKCheckBoxCell.m */; };
+		F59A78C82622163800E1BE10 /* IKCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78C42622163800E1BE10 /* IKCheckBox.m */; };
+		F59A78CD26224C2900E1BE10 /* WAYWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78CC26224C2900E1BE10 /* WAYWindow.m */; };
+		F59A78D926224FB300E1BE10 /* IKGMessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78D626224FB300E1BE10 /* IKGMessageBox.m */; };
+		F59A78DA26224FB300E1BE10 /* IKGMessageBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59A78D826224FB300E1BE10 /* IKGMessageBox.xib */; };
+		F59A78EE2622537400E1BE10 /* IKSecureTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78E72622537400E1BE10 /* IKSecureTextField.m */; };
+		F59A78EF2622537400E1BE10 /* IKSecureTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78E92622537400E1BE10 /* IKSecureTextFieldCell.m */; };
+		F59A78F02622537400E1BE10 /* IKGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78EA2622537400E1BE10 /* IKGTextField.m */; };
+		F59A78F12622537400E1BE10 /* IKGTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78EB2622537400E1BE10 /* IKGTextFieldCell.m */; };
+		F59A78F22622537400E1BE10 /* IKClipTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78ED2622537400E1BE10 /* IKClipTextField.m */; };
+		F59A78F6262253D200E1BE10 /* NSColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A78F5262253D200E1BE10 /* NSColor+Custom.m */; };
+		F5CE13A12621DDB600FE8AB2 /* IKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CE13A02621DDB600FE8AB2 /* IKButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F55585502614C59700B08105 /* AndoUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndoUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55585532614C59700B08105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F55585542614C59700B08105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F55585562614C59900B08105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55585592614C59900B08105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F555855B2614C59900B08105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F555855C2614C59900B08105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F555855E2614C59900B08105 /* AndoUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AndoUI.entitlements; sourceTree = "<group>"; };
+		F59A78C32622163800E1BE10 /* IKCheckBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKCheckBoxCell.m; sourceTree = "<group>"; };
+		F59A78C42622163800E1BE10 /* IKCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKCheckBox.m; sourceTree = "<group>"; };
+		F59A78C52622163800E1BE10 /* IKCheckBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKCheckBoxCell.h; sourceTree = "<group>"; };
+		F59A78C62622163800E1BE10 /* IKCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKCheckBox.h; sourceTree = "<group>"; };
+		F59A78CB26224C2900E1BE10 /* WAYWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYWindow.h; sourceTree = "<group>"; };
+		F59A78CC26224C2900E1BE10 /* WAYWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYWindow.m; sourceTree = "<group>"; };
+		F59A78D626224FB300E1BE10 /* IKGMessageBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKGMessageBox.m; sourceTree = "<group>"; };
+		F59A78D726224FB300E1BE10 /* IKGMessageBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKGMessageBox.h; sourceTree = "<group>"; };
+		F59A78D826224FB300E1BE10 /* IKGMessageBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IKGMessageBox.xib; sourceTree = "<group>"; };
+		F59A78E42622537400E1BE10 /* IKSecureTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKSecureTextFieldCell.h; sourceTree = "<group>"; };
+		F59A78E52622537400E1BE10 /* IKGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKGTextField.h; sourceTree = "<group>"; };
+		F59A78E62622537400E1BE10 /* IKClipTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKClipTextField.h; sourceTree = "<group>"; };
+		F59A78E72622537400E1BE10 /* IKSecureTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKSecureTextField.m; sourceTree = "<group>"; };
+		F59A78E82622537400E1BE10 /* IKGTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKGTextFieldCell.h; sourceTree = "<group>"; };
+		F59A78E92622537400E1BE10 /* IKSecureTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKSecureTextFieldCell.m; sourceTree = "<group>"; };
+		F59A78EA2622537400E1BE10 /* IKGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKGTextField.m; sourceTree = "<group>"; };
+		F59A78EB2622537400E1BE10 /* IKGTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKGTextFieldCell.m; sourceTree = "<group>"; };
+		F59A78EC2622537400E1BE10 /* IKSecureTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKSecureTextField.h; sourceTree = "<group>"; };
+		F59A78ED2622537400E1BE10 /* IKClipTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKClipTextField.m; sourceTree = "<group>"; };
+		F59A78F4262253D200E1BE10 /* NSColor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Custom.h"; sourceTree = "<group>"; };
+		F59A78F5262253D200E1BE10 /* NSColor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Custom.m"; sourceTree = "<group>"; };
+		F5CE139F2621DDB600FE8AB2 /* IKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKButton.h; sourceTree = "<group>"; };
+		F5CE13A02621DDB600FE8AB2 /* IKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F555854D2614C59700B08105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55585472614C59700B08105 = {
+			isa = PBXGroup;
+			children = (
+				F55585522614C59700B08105 /* AndoUI */,
+				F55585512614C59700B08105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55585512614C59700B08105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55585502614C59700B08105 /* AndoUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55585522614C59700B08105 /* AndoUI */ = {
+			isa = PBXGroup;
+			children = (
+				F59A78E32622537400E1BE10 /* textfeild */,
+				F59A78D526224F9500E1BE10 /* message */,
+				F59A78D426224F4E00E1BE10 /* button */,
+				F59A78D326224F3100E1BE10 /* window */,
+				F55585532614C59700B08105 /* AppDelegate.h */,
+				F55585542614C59700B08105 /* AppDelegate.m */,
+				F55585562614C59900B08105 /* Assets.xcassets */,
+				F55585582614C59900B08105 /* MainMenu.xib */,
+				F555855B2614C59900B08105 /* Info.plist */,
+				F555855C2614C59900B08105 /* main.m */,
+				F555855E2614C59900B08105 /* AndoUI.entitlements */,
+			);
+			path = AndoUI;
+			sourceTree = "<group>";
+		};
+		F59A78D326224F3100E1BE10 /* window */ = {
+			isa = PBXGroup;
+			children = (
+				F59A78CB26224C2900E1BE10 /* WAYWindow.h */,
+				F59A78CC26224C2900E1BE10 /* WAYWindow.m */,
+			);
+			path = window;
+			sourceTree = "<group>";
+		};
+		F59A78D426224F4E00E1BE10 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				F59A78C62622163800E1BE10 /* IKCheckBox.h */,
+				F59A78C42622163800E1BE10 /* IKCheckBox.m */,
+				F59A78C52622163800E1BE10 /* IKCheckBoxCell.h */,
+				F59A78C32622163800E1BE10 /* IKCheckBoxCell.m */,
+				F5CE139F2621DDB600FE8AB2 /* IKButton.h */,
+				F5CE13A02621DDB600FE8AB2 /* IKButton.m */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		F59A78D526224F9500E1BE10 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				F59A78D726224FB300E1BE10 /* IKGMessageBox.h */,
+				F59A78D626224FB300E1BE10 /* IKGMessageBox.m */,
+				F59A78D826224FB300E1BE10 /* IKGMessageBox.xib */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		F59A78E32622537400E1BE10 /* textfeild */ = {
+			isa = PBXGroup;
+			children = (
+				F59A78F4262253D200E1BE10 /* NSColor+Custom.h */,
+				F59A78F5262253D200E1BE10 /* NSColor+Custom.m */,
+				F59A78E42622537400E1BE10 /* IKSecureTextFieldCell.h */,
+				F59A78E52622537400E1BE10 /* IKGTextField.h */,
+				F59A78E62622537400E1BE10 /* IKClipTextField.h */,
+				F59A78E72622537400E1BE10 /* IKSecureTextField.m */,
+				F59A78E82622537400E1BE10 /* IKGTextFieldCell.h */,
+				F59A78E92622537400E1BE10 /* IKSecureTextFieldCell.m */,
+				F59A78EA2622537400E1BE10 /* IKGTextField.m */,
+				F59A78EB2622537400E1BE10 /* IKGTextFieldCell.m */,
+				F59A78EC2622537400E1BE10 /* IKSecureTextField.h */,
+				F59A78ED2622537400E1BE10 /* IKClipTextField.m */,
+			);
+			path = textfeild;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F555854F2614C59700B08105 /* AndoUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55585612614C59900B08105 /* Build configuration list for PBXNativeTarget "AndoUI" */;
+			buildPhases = (
+				F555854C2614C59700B08105 /* Sources */,
+				F555854D2614C59700B08105 /* Frameworks */,
+				F555854E2614C59700B08105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndoUI;
+			productName = AndoUI;
+			productReference = F55585502614C59700B08105 /* AndoUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55585482614C59700B08105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F555854F2614C59700B08105 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F555854B2614C59700B08105 /* Build configuration list for PBXProject "AndoUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55585472614C59700B08105;
+			productRefGroup = F55585512614C59700B08105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F555854F2614C59700B08105 /* AndoUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F555854E2614C59700B08105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55585572614C59900B08105 /* Assets.xcassets in Resources */,
+				F555855A2614C59900B08105 /* MainMenu.xib in Resources */,
+				F59A78DA26224FB300E1BE10 /* IKGMessageBox.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F555854C2614C59700B08105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A78EF2622537400E1BE10 /* IKSecureTextFieldCell.m in Sources */,
+				F59A78C72622163800E1BE10 /* IKCheckBoxCell.m in Sources */,
+				F59A78C82622163800E1BE10 /* IKCheckBox.m in Sources */,
+				F59A78F6262253D200E1BE10 /* NSColor+Custom.m in Sources */,
+				F59A78F02622537400E1BE10 /* IKGTextField.m in Sources */,
+				F59A78EE2622537400E1BE10 /* IKSecureTextField.m in Sources */,
+				F59A78F22622537400E1BE10 /* IKClipTextField.m in Sources */,
+				F59A78F12622537400E1BE10 /* IKGTextFieldCell.m in Sources */,
+				F555855D2614C59900B08105 /* main.m in Sources */,
+				F55585552614C59700B08105 /* AppDelegate.m in Sources */,
+				F5CE13A12621DDB600FE8AB2 /* IKButton.m in Sources */,
+				F59A78CD26224C2900E1BE10 /* WAYWindow.m in Sources */,
+				F59A78D926224FB300E1BE10 /* IKGMessageBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F55585582614C59900B08105 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55585592614C59900B08105 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F555855F2614C59900B08105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F55585602614C59900B08105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F55585622614C59900B08105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AndoUI/AndoUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AndoUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ecorn.com.AndoUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F55585632614C59900B08105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AndoUI/AndoUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AndoUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ecorn.com.AndoUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F555854B2614C59700B08105 /* Build configuration list for PBXProject "AndoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F555855F2614C59900B08105 /* Debug */,
+				F55585602614C59900B08105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55585612614C59900B08105 /* Build configuration list for PBXNativeTarget "AndoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55585622614C59900B08105 /* Debug */,
+				F55585632614C59900B08105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55585482614C59700B08105 /* Project object */;
+}
